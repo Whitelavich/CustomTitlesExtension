@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Window Titles",
+  "description": "Stop Getting Lost",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "action": {
+    "default_title": "Enable Custom Title"
+  },
+  "icons": {
+    "16": "./icon.png"
+  },
+  "background": {
+    "service_worker": "./js/background.js"
+  }
+}
